@@ -18,14 +18,6 @@ Starting a Namecoin instance is simple:
 
 ... where `some-namecoin` is the name you want to assign to your container and `tag` is the tag specifying the Namecoin version you want. See the list above for relevant tags.
 
-## Environment Variables
-
-When you start the `namecoin` image, you can adjust the configuration of the Namecoin instance by passing one or more environment variables on the `docker run` command line.
-
-### `MYSQL_ROOT_PASSWORD`
-
-This variable is mandatory and specifies the password that will be set for the MySQL `root` superuser account. In the above example, it was set to `my-secret-pw`.
-
 # Caveats
 
 ## Where to Store Data
